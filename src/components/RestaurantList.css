@@ -1,0 +1,22 @@
+/* RestaurantCard.css */
+.restaurant-card {
+  border: 3px solid #050505;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: 0 10px 35px rgba(69, 200, 4, 0.102);
+  transition: transform 0.5s ease-in-out;
+  background-color: rgb(241, 148, 114);
+}
+
+.restaurant-card:hover {
+  transform: scale(0.9);
+}
+
+.card-image {
+  margin-left : 350px;
+  margin-top : 20px;
+  width: 50%;
+  height: 400px;
+  object-fit: fill;
+}
